@@ -1,0 +1,62 @@
+body{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    background-color: #FFF8E1;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+h1{
+    color:#FF8F00;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+h2,h3{
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.mainP{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 25px;
+}
+
+.d-flex{
+    background-color: white
+}
+
+.btn{
+    border: none;
+}
+
+.row{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.nav-link{
+    color:#000000;
+}
+
+.nav-link:hover{
+    color:#FF8F00;
+}
+
+.contactBtn{
+    background-color: #FFF8E1;
+    width: 300px;
+}
+
+.contactBtn:hover{
+    background-color: #FF8F00;
+}
+
+.fa-moon{
+    float: right;
+    color:#FF8F00;
+}
+
+.fa-moon:hover{
+    cursor: pointer;
+}
