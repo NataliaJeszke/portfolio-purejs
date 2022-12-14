@@ -10,13 +10,13 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;600&family=La+Belle+Aurore&family=Nunito&family=Overpass:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/b433241389.js"
       crossorigin="anonymous"
@@ -26,44 +26,58 @@
   </head>
   <body>
     <div class="container">
-      <div class="row border shadow-lg p-1 mb-2 bg-body rounded d-flex">
-        <nav class="nav d-flex flex-column flex-sm-column flex-md-row">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Portfolio</a>
-          <a class="nav-link" href="#">Contact</a>
-          <div class="col mt-3 me-2 mb-3">
-            <i class="fa-solid fa-moon fa-2xl p-1" onclick="darkMode()"></i>
+      <div class="header row border shadow-lg p-1 mb-2 rounded d-flex">
+        <nav
+          class="navContainer nav d-flex flex-column flex-sm-column flex-md-row"
+        >
+          <a class="nav-link active nav-link1" aria-current="page" href="#"
+            >Home</a
+          >
+          <a class="nav-link nav-link2" href="#">About</a>
+          <a class="nav-link nav-link3" href="#">Portfolio</a>
+          <a class="nav-link nav-link4" href="#">Contact</a>
+          <div class="DmBtnContainer col mt-3 me-2 mb-3">
+            <i
+              class="fa-solid fa-moon fa-2xl p-1"
+              aria-label="Dark mode switch"
+              onclick="darkMode()"
+            ></i>
           </div>
         </nav>
       </div>
       <div
-        class="mainDiv d-flex flex-column flex-sm-column flex-md-row border shadow-lg p-3 mb-5 bg-body rounded"
+        class="mainDiv d-flex flex-column flex-sm-column flex-md-row border shadow-lg p-3 mb-5 rounded"
       >
-        <div class="col d-flex flex-column justify-content-center me-3 ms-3">
+        <div
+          class="textContainer col d-flex flex-column justify-content-center me-3 ms-3"
+        >
           <h1 class="text-center mb-5">Frontend Developer</h1>
           <p class="text-center text-wrap mainP mt-2 mb-5">
             With passion for functional, beautiful <br />and easy to use pages
           </p>
 
-          <h2 class="text-center text-wrap mt-2 mb-2">JavaScript, Angular</h2>
-          <h2 class="text-center text-wrap mb-5">CSS, Bootstrap, Sass</h2>
+          <h2 class="h2 text-center text-wrap mt-2 mb-2">
+            JavaScript, Angular
+          </h2>
+          <h2 class="anotherH2 text-center text-wrap mb-5">
+            CSS, Bootstrap, Sass
+          </h2>
           <h3 class="text-center text-wrap mb-5">Other skills: GIT</h3>
           <button type="button" class="btn btn-light contactBtn mx-auto">
             Contact me
           </button>
           <div
-            class="d-flex flex-row mt-5 gap-2 align-items-center justify-content-center"
+            class="socialMediaContainer d-flex flex-row mt-5 gap-2 align-items-center justify-content-center"
           >
             <a
-              class="btn btn-primary"
+              class="btn socialBtn1 btn-primary"
               style="background-color: #ff8f00"
               href="#!"
               role="button"
               ><i class="fab fa-linkedin-in"></i
             ></a>
             <a
-              class="btn btn-primary"
+              class="btn socialBtn2 btn-primary"
               style="background-color: #ff8f00"
               href="https://github.com/NataliaJeszke"
               target="_blank"
@@ -72,7 +86,7 @@
               ><i class="fab fa-github"></i
             ></a>
             <a
-              class="btn btn-primary"
+              class="btn socialBtn3 btn-primary"
               style="background-color: #ff8f00"
               href="#!"
               role="button"
@@ -80,17 +94,17 @@
             ></a>
           </div>
         </div>
-        <div class="col">
+        <div class="imgContainer col">
           <img
             src="art.jpg"
-            class="img-fluid border shadow p-3 mb-5 bg-body"
-            alt=""
+            class="img-fluid border shadow p-3 mb-5"
+            alt="main image"
             srcset=""
           />
         </div>
       </div>
       <div
-        class="d-flex flex-column flex-md-row border shadow-lg p-3 mb-5 bg-body rounded"
+        class="secondContainer d-flex flex-column flex-md-row border shadow-lg p-3 mb-5 rounded"
       ></div>
     </div>
   </body>

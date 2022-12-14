@@ -1,28 +1,35 @@
+:root{
+    --amber-light: #FFF8E1;
+    --amber-800: #FF8F00;
+    --gray:#FAFAFA;
+}
+
 body{
     font-family: 'Encode Sans Condensed', sans-serif;
     background-color: #FFF8E1;
 }
 
-.dark-mode {
-    background-color: black;
-  }
 
 h1{
-    color:#FF8F00;
+    color:var(--amber-800);
     font-family: 'Encode Sans Condensed', sans-serif;
 }
 
-h2,h3{
+h2{
     font-family: 'Encode Sans Condensed', sans-serif;
+    color: #000000;
 }
 
-.mainP{
-    font-family: 'La Belle Aurore', cursive;
+.header
+
+
+p{
     font-size: 25px;
+    font-family: 'La Belle Aurore', cursive;
 }
 
 .d-flex{
-    background-color: white
+    background-color: var(--gray);
 }
 
 .btn{
@@ -39,21 +46,21 @@ h2,h3{
 }
 
 .nav-link:hover{
-    color:#FF8F00;
+    color:var(--amber-800);
 }
 
 .contactBtn{
-    background-color: #FFF8E1;
+    background-color: var(--amber-light);
     width: 300px;
 }
 
 .contactBtn:hover{
-    background-color: #FF8F00;
+    background-color: var(--amber-800);
 }
 
 .fa-moon{
     float: right;
-    color:#FF8F00;
+    color: var(--amber-800);
 }
 
 .fa-moon:hover{
