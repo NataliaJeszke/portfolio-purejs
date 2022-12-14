@@ -116,3 +116,8 @@ body.dark .container .mainDiv img{
 body.dark .container .secondContainer{
     background-color: var(--backgroundDivs);
 }
+
+body.dark .container .header .DmBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+}

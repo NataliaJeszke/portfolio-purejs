@@ -14,6 +14,19 @@
 const moonBtn = document.querySelector(".fa-moon");
 moonBtn.addEventListener("click", ()=>{
     document.querySelector("body").classList.toggle("dark");
+        document.getElementById("moon").classList.remove("fa-solid");
+        document.getElementById("moon").classList.remove("fa-moon");
+        document.getElementById("moon").classList.remove("fa-2xl");
+        document.getElementById("moon").classList.remove("p-1");
+        document.getElementById("moon").classList.add("fa-solid");
+        document.getElementById("moon").classList.add("fa-sun");
+        document.getElementById("moon").classList.add("fa-2xl");
+        document.getElementById("moon").classList.add("p-1");
+    
+
+
+
+
 // document.querySelector("body").style.backgroundColor=bodyBg;
 // //header style
 // document.querySelector(".header").style.backgroundColor=backgroundDivs;
@@ -38,5 +51,4 @@ moonBtn.addEventListener("click", ()=>{
 // document.querySelector("img").style.opacity=0.8;
 // //second section
 // document.querySelector(".secondContainer").style.backgroundColor=backgroundDivs;
-
 });
