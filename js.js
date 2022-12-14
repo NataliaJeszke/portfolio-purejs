@@ -13,7 +13,7 @@
 /////Third try on dark mode/////
 const moonBtn = document.querySelector(".fa-moon");
 moonBtn.addEventListener("click", ()=>{
-    document.querySelector("body").classList.add("dark");
+    document.querySelector("body").classList.toggle("dark");
 // document.querySelector("body").style.backgroundColor=bodyBg;
 // //header style
 // document.querySelector(".header").style.backgroundColor=backgroundDivs;
