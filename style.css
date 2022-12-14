@@ -103,6 +103,9 @@ body.dark .container .mainDiv button{
     color: var(--fontColorDark);
     background-color: var(--bodyBg);
 }
+body.dark .container .mainDiv button:hover{
+    background-color: var(--amber-800);
+}
 body.dark .container .mainDiv .socialMediaContainer{
     background-color: var(--backgroundDivs)
 }
