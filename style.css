@@ -2,6 +2,12 @@
     --amber-light: #FFF8E1;
     --amber-800: #FF8F00;
     --gray:#FAFAFA;
+
+    /* Dark mode colors */
+    --bodyBg: #000000;
+    --fontColorDark:#EEEEEE;
+    --backgroundDivs:#424242;
+    --socialBtn:#BDBDBD;
 }
 
 body{
@@ -19,8 +25,6 @@ h2{
     font-family: 'Encode Sans Condensed', sans-serif;
     color: #000000;
 }
-
-.header
 
 
 p{
@@ -65,4 +69,47 @@ p{
 
 .fa-moon:hover{
     cursor: pointer;
+}
+
+/* Dark Mode Style */
+
+body.dark{
+    background-color: var(--bodyBg);
+    color: var(--fontColorDark);
+}
+
+body.dark .container .header{
+    background-color: var(--backgroundDivs);
+}
+body.dark .container .header .navContainer{
+    background-color: var(--backgroundDivs);
+    color: var(--fontColorDark);
+}
+body.dark .container .header .navContainer .nav-link{
+    color: var(--fontColorDark);
+}
+
+body.dark .container .mainDiv{
+    background-color: var(--backgroundDivs);
+}
+
+body.dark .container .mainDiv .textContainer{
+    background-color: var(--backgroundDivs);
+}
+body.dark .container .mainDiv h2{
+    color: var(--fontColorDark);
+}
+body.dark .container .mainDiv button{
+    color: var(--fontColorDark);
+    background-color: var(--bodyBg);
+}
+body.dark .container .mainDiv .socialMediaContainer{
+    background-color: var(--backgroundDivs)
+}
+body.dark .container .mainDiv img{
+    opacity: 0.8;
+    filter: grayscale();
+}
+body.dark .container .secondContainer{
+    background-color: var(--backgroundDivs);
 }
