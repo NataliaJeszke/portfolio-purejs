@@ -1,15 +1,17 @@
+/////First try on dark mode/////
 // function darkMode(){
 //     const moon = document.body;
 //     moon.classList.toggle("dark-mode");
 // }
 
-const bodyBg = "#000000";
-const fontColorDark="#EEEEEE";
-const backgroundDivs="#424242";
-const socialBtn="#BDBDBD";
+/////Second try on dark mode/////
+// const bodyBg = "#000000";
+// const fontColorDark="#EEEEEE";
+// const backgroundDivs="#424242";
+// const socialBtn="#BDBDBD";
 
+/////Third try on dark mode/////
 const moonBtn = document.querySelector(".fa-moon");
-
 moonBtn.addEventListener("click", ()=>{
     document.querySelector("body").classList.add("dark");
 // document.querySelector("body").style.backgroundColor=bodyBg;
