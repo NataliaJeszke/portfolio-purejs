@@ -44,7 +44,7 @@ p{
     margin-left: 1px;
     margin-right: 1px;
 }
-
+/* navigation style */
 .nav-link{
     color:#000000;
 }
@@ -52,6 +52,11 @@ p{
 .nav-link:hover{
     color:var(--amber-800);
 }
+
+.nav-link:visited{
+    color:var(--bodyBg);
+}
+
 
 .contactBtn{
     background-color: var(--amber-light);
@@ -113,6 +118,7 @@ body.dark .container .mainDiv img{
     opacity: 0.8;
     filter: grayscale();
 }
+
 body.dark .container .secondContainer{
     background-color: var(--backgroundDivs);
 }

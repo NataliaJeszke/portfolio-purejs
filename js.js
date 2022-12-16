@@ -37,3 +37,17 @@ darkModeToggle.addEventListener("click", () => {
     }
 
 });
+
+///ONLOAD Function - for checking moon/sun icon
+
+window.onload = function() {
+    let reloading = localStorage.getItem("darkMode");
+    let icon = document.getElementById("moon");
+    if (reloading === "enabled") {
+        console.log(reloading);
+        icon.classList.remove("fa-solid");
+        icon.classList.remove("fa-moon");
+        icon.classList.add("fa-solid")
+        icon.classList.add("fa-sun")
+    }
+}
