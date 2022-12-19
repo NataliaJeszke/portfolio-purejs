@@ -10,6 +10,16 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,15 +38,29 @@
     <div class="container">
       <div class="header row border shadow-lg p-1 mb-2 rounded d-flex">
         <nav
-          class="navContainer nav d-flex flex-column flex-sm-row flex-md-row"
+          class="navContainer justify-content-center nav d-flex flex-row flex-sm-row flex-md-row navbar navbar-expand-lg"
         >
-          <a class="nav-link active nav-link1" aria-current="page" href="#"
-            >Home</a
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-          <a class="nav-link nav-link2" href="#">About</a>
-          <a class="nav-link nav-link3" href="#">Portfolio</a>
-          <a class="nav-link nav-link4" href="#">Contact</a>
-
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <a class="nav-link active nav-link1" aria-current="page" href="#"
+                >Home</a
+              >
+              <a class="nav-link nav-link2" href="#">About</a>
+              <a class="nav-link nav-link3" href="#">Portfolio</a>
+              <a class="nav-link nav-link4" href="#">Contact</a>
+            </div>
+          </div>
           <div class="DmBtnContainer col mt-3 me-2 mb-3">
             <i
               id="moon"

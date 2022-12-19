@@ -76,6 +76,7 @@ p{
     cursor: pointer;
 }
 
+
 /* Dark Mode Style */
 
 body.dark{
@@ -126,4 +127,10 @@ body.dark .container .secondContainer{
 body.dark .container .header .DmBtnContainer {
     display: flex;
     justify-content: flex-end;
+}
+
+/* Navigation toggler menu */
+
+body.dark .container .header .navContainer{
+    background-color: var(--backgroundDivs);
 }
