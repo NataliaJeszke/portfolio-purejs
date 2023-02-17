@@ -1,6 +1,7 @@
 :root{
     --amber-light: #FFF8E1;
     --amber-800: #FF8F00;
+    --amber-dark: #b36908;
     --gray:#FAFAFA;
 
     /* Dark mode colors */
@@ -40,6 +41,10 @@ p{
     border: none;
 }
 
+.btn:hover{
+    background-color: var(--amber-dark);
+}
+
 .row{
     margin-left: 1px;
     margin-right: 1px;
@@ -76,6 +81,9 @@ p{
     cursor: pointer;
 }
 
+.fa-sun:hover{
+    cursor: pointer;
+}
 
 /* Dark Mode Style */
 
