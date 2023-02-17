@@ -154,4 +154,8 @@ body.dark .container .header .navContainer{
     align-items: center;
 }
 
-
+.other-pure-js{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
