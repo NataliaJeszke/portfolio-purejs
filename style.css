@@ -1,8 +1,9 @@
 :root{
     --amber-light: #FFF8E1;
     --amber-800: #FF8F00;
-    --amber-dark: #b36908;
+    --amber-dark: #b68443;
     --gray:#FAFAFA;
+    --opacity:#fafafa3c;
 
     /* Dark mode colors */
     --bodyBg: #000000;
@@ -39,6 +40,8 @@ p{
 
 .btn{
     border: none;
+    background-color: var(--amber-800);
+    color: var(--amber-light);
 }
 
 .btn:hover{
@@ -66,6 +69,7 @@ p{
 .contactBtn{
     background-color: var(--amber-light);
     width: 300px;
+    color: var(--bodyBg);
 }
 
 .contactBtn:hover{
@@ -84,6 +88,7 @@ p{
 .fa-sun:hover{
     cursor: pointer;
 }
+
 
 /* Dark Mode Style */
 
@@ -149,8 +154,4 @@ body.dark .container .header .navContainer{
     align-items: center;
 }
 
-#carouselExampleCaptions{
-    width: 50vw;
-    height: auto;
-}
 
