@@ -12,6 +12,10 @@
     --socialBtn:#BDBDBD;
 }
 
+html {
+    scroll-padding-top: 70px; /* height of sticky header */
+  }
+
 body{
     font-family: 'Encode Sans Condensed', sans-serif;
     background-color: #FFF8E1;
