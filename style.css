@@ -205,7 +205,7 @@ body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card 
     height: 25rem;
 }
 .card-body{
-    height: 15rem;
+    height: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
