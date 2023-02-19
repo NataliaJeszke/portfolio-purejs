@@ -34,6 +34,10 @@ p{
     font-family: 'La Belle Aurore', cursive;
 }
 
+.mainDiv{
+    margin-top: 100px;
+}
+
 .d-flex{
     background-color: var(--gray);
 }
@@ -118,13 +122,7 @@ body.dark .container .mainDiv .textContainer{
 body.dark .container .mainDiv h2{
     color: var(--fontColorDark);
 }
-body.dark .container .mainDiv button{
-    color: var(--fontColorDark);
-    background-color: var(--bodyBg);
-}
-body.dark .container .mainDiv button:hover{
-    background-color: var(--amber-800);
-}
+
 body.dark .container .mainDiv .socialMediaContainer{
     background-color: var(--backgroundDivs)
 }
@@ -148,7 +146,7 @@ body.dark .container .header .navContainer{
     background-color: var(--backgroundDivs);
 }
 
-/* Portfolio section dark mode */
+/* Project section dark mode */
 
 body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card .card-body .card-text{
     color: var(--amber-light);
@@ -166,6 +164,39 @@ body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card 
     background-color: var(--amber-800);
 }
 
+/* Contact section dark mode */
+body.dark .container .aboutMe .aboutMeDiv{
+    background-color: var(--backgroundDivs);
+}
+
+body.dark .container .aboutMe .aboutMeDiv .textContainer{
+    background-color: var(--backgroundDivs);
+}
+
+body.dark .container .aboutMe .aboutMeDiv .textContainer .socialMediaContainer{
+    background-color: var(--backgroundDivs);
+}
+
+body.dark .portfolio-img{
+    opacity: 0.8;
+    filter: grayscale();
+}
+
+/* Contact buttons dark mode */
+body.dark .contactBtn{
+    color: var(--fontColorDark);
+    background-color: var(--bodyBg);
+}
+
+body.dark .contactBtn:hover{
+    color: var(--fontColorDark);
+    background-color: var(--amber-800);
+}
+
+.text-center> .btn{
+    width: 100px;
+}
+
 .secondContainer{
     justify-content: center;
     text-align: center;
@@ -178,7 +209,6 @@ body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card 
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: rgba(0, 255, 255, 0);
-    padding-bottom: 50px;
 }
 
 .pureJSProjectCards{
@@ -188,6 +218,7 @@ body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card 
     gap: 50px;
     align-items: center;
     background-color: rgba(0, 255, 255, 0);
+    padding-bottom: 50px;
 }
 
 .pureJStitle{
@@ -208,6 +239,7 @@ body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: fit-content;
 }
 
 .mainContainerAboutMe{
@@ -238,6 +270,7 @@ body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card 
     justify-content: center;
     flex-direction: column;
 }
+
 
 
 

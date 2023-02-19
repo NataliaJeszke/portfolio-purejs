@@ -38,7 +38,9 @@
     <div class="container">
       <div class="header row border shadow-lg p-1 mb-2 rounded d-flex">
         <nav
-          class="navContainer justify-content-center nav d-flex flex-row flex-sm-row flex-md-row navbar navbar-expand-lg"
+          class="navContainer container 
+          d-flex flex-column flex-sm-column flex-lg-row border shadow-lg rounded
+          justify-content-center nav navbar navbar-expand-lg fixed-top text-center"
         >
           <button
             class="navbar-toggler"
@@ -217,7 +219,7 @@
           </button>
         </div>
         <h3 class="text-center mb-5 mt-5">
-         Frameworks and Libraries for JavaScript: ReactJS, Redux
+          Frameworks and Libraries for JavaScript: ReactJS, Redux
         </h3>
         <div
           id="carouselFrameworks"
@@ -313,157 +315,198 @@
         <section class="pureJSProjects">
           <h3 class="pureJStitle">Pure JavaScript Projects</h3>
           <div class="pureJSProjectCards d-flex flex-sm-column flex-lg-row">
-            <div class="card d-flex justify-content-between" style="width: 18rem;">
+            <div
+              class="card d-flex justify-content-between"
+              style="width: 18rem"
+            >
               <video class="img-fluid img-PureJS" autoplay loop muted>
                 <source src="swapi.mp4" type="video/mp4" />
               </video>
               <div class="card-body">
                 <h5 class="card-title">SWAPI</h5>
-                <p class="card-text">Project with Open Source API for everything Star Wars. Search page for names nad surnames of Star Wars characters.</p>
+                <p class="card-text">
+                  Project with Open Source API for everything Star Wars. Search
+                  page for names nad surnames of Star Wars characters.
+                </p>
                 <a href="#" class="btn btnCard btn-primary">Go somewhere</a>
               </div>
             </div>
-  
-            <div class="card d-flex justify-content-between" style="width: 18rem;">
-              <img src="xo-game.png" class="card-img-top" alt="...">
+
+            <div
+              class="card d-flex justify-content-between"
+              style="width: 18rem"
+            >
+              <img src="xo-game.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Tic Tac Toe Game</h5>
-                <p class="card-text">Usage of pure JavaScript with LocalStorage manipulation. Fun 80s style.</p>
+                <p class="card-text">
+                  Usage of pure JavaScript with LocalStorage manipulation. Fun
+                  80s style.
+                </p>
                 <a href="#" class="btn btnCard btn-primary">Go somewhere</a>
               </div>
             </div>
-  
-            <div class="card d-flex justify-content-between" style="width: 18rem;">
-              <img src="todolist.png" class="card-img-top" alt="...">
+
+            <div
+              class="card d-flex justify-content-between"
+              style="width: 18rem"
+            >
+              <img src="todolist.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">To Do List</h5>
-                <p class="card-text">Pure JavaScript with creating and removing elements from the DOM. With usage of LocalStorage.</p>
+                <p class="card-text">
+                  Pure JavaScript with creating and removing elements from the
+                  DOM. With usage of LocalStorage.
+                </p>
                 <a href="#" class="btn btnCard btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
         </section>
-    </div>
-    <section class="aboutMe">
-      <div
-        class="aboutMeDiv d-flex flex-column flex-sm-column flex-lg-row border shadow-lg p-3 mb-5 rounded"
-      >
+      </div>
+      <section class="aboutMe">
         <div
-          class="textContainer col d-flex flex-column justify-content-center me-3 ms-3 mt-4"
+          class="aboutMeDiv d-flex flex-column flex-sm-column flex-lg-row border shadow-lg p-3 mb-5 rounded"
         >
-          <h1 class="text-center mb-5">Hi!</h1>
-
-          <h2 class="h2 text-center text-wrap mt-2 mb-3">
-           My name is Natalia Jeszke
-          </h2>
-
-          <h2 class="h2 text-center text-wrap mt-2 mb-3">
-            Postgraduate student in Frontend Development 2022/2023.
-          </h2>
-          <h3 class="text-center text-wrap mb-3 job-text">Currently working as a Metadata Specialist in Poznan Supercomputing and Networking Center </h3>
-
-          <h3 class="text-center text-wrap mb-5 job-text">I am looking for employment as a Junior Frontend Developer in technologies such as ReactJS, Bootstrap </h3>
           <div
-          class="socialMediaContainer d-flex flex-row mt-2 mb-2 gap-2 align-items-center justify-content-center"
-        >
-          <a class="btn socialBtn1" href="#!" role="button"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-          <a
-            class="btn socialBtn2"
-            href="https://github.com/NataliaJeszke"
-            target="_blank"
-            rel="noopener noreferrer"
-            role="button"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a class="btn socialBtn3" href="#!" role="button"
-            ><i class="fa-brands fa-square-pinterest"></i
-          ></a>
-        </div>
-          <section class="mb-4 mt-2">
+            class="textContainer col d-flex flex-column justify-content-center me-3 ms-3 mt-4"
+          >
+            <h1 class="text-center mb-5">Hi! I'm Natalia</h1>
 
-            <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact</h2>
-            <div class="row contactForm">
-        
+            <h2 class="h2 text-center text-wrap mt-2 mb-3">
+              Postgraduate student in Frontend Development 2022/2023.
+            </h2>
+            <h3 class="text-center text-wrap mb-3 job-text">
+              Currently working as a Metadata Specialist in Poznan
+              Supercomputing and Networking Center
+            </h3>
+
+            <h3 class="text-center text-wrap mb-5 job-text">
+              I am looking for employment as a Junior Frontend Developer in
+              technologies such as ReactJS, Bootstrap
+            </h3>
+            <div
+              class="socialMediaContainer d-flex flex-row mt-2 mb-2 gap-2 align-items-center justify-content-center"
+            >
+              <a class="btn socialBtn1" href="#!" role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                class="btn socialBtn2"
+                href="https://github.com/NataliaJeszke"
+                target="_blank"
+                rel="noopener noreferrer"
+                role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a class="btn socialBtn3" href="#!" role="button"
+                ><i class="fa-brands fa-square-pinterest"></i
+              ></a>
+            </div>
+            <section class="mb-4 mt-2">
+              <!--Section heading-->
+              <h2 class="h1-responsive font-weight-bold text-center my-4">
+                Contact
+              </h2>
+              <div class="row contactForm">
                 <!--Grid column-->
                 <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-        
-                        <!--Grid row-->
-                        <div class="row">
-        
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Your name</label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-        
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Your email</label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-        
+                  <form
+                    id="contact-form"
+                    name="contact-form"
+                    action="mail.php"
+                    method="POST"
+                  >
+                    <!--Grid row-->
+                    <div class="row">
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                        <div class="md-form mb-0">
+                          <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            class="form-control"
+                          />
+                          <label for="name" class="">Your name</label>
                         </div>
-                        <!--Grid row-->
-        
-                        <!--Grid row-->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control">
-                                    <label for="subject" class="">Subject</label>
-                                </div>
-                            </div>
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                        <div class="md-form mb-0">
+                          <input
+                            type="text"
+                            id="email"
+                            name="email"
+                            class="form-control"
+                          />
+                          <label for="email" class="">Your email</label>
                         </div>
-                        <!--Grid row-->
-        
-                        <!--Grid row-->
-                        <div class="row">
-        
-                            <!--Grid column-->
-                            <div class="col-md-12">
-        
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message</label>
-                                </div>
-        
-                            </div>
-                        </div>
-                        <!--Grid row-->
-        
-                    </form>
-        
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                      </div>
+                      <!--Grid column-->
                     </div>
-                    <div class="status"></div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="md-form mb-0">
+                          <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            class="form-control"
+                          />
+                          <label for="subject" class="">Subject</label>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                      <!--Grid column-->
+                      <div class="col-md-12">
+                        <div class="md-form">
+                          <textarea
+                            type="text"
+                            id="message"
+                            name="message"
+                            rows="2"
+                            class="form-control md-textarea"
+                          ></textarea>
+                          <label for="message">Your message</label>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Grid row-->
+                  </form>
+
+                  <div class="text-center text-md-left">
+                    <a
+                      class="btn btn-primary contactBtn"
+                      onclick="document.getElementById('contact-form').submit();"
+                      >Send</a
+                    >
+                  </div>
+                  <div class="status"></div>
                 </div>
                 <!--Grid column-->
-        
-            </div>
-        </section>
+              </div>
+            </section>
+          </div>
+          <div class="imgContainerAboutMe col mt-4">
+            <img
+              src="portfolio-photo.jpg"
+              class="img-fluid border shadow p-3 mb-5 portfolio-img"
+              alt="main image"
+              srcset=""
+            />
+          </div>
         </div>
-        <div class="imgContainerAboutMe col mt-4">
-          <img
-            src="portfolio-photo.jpg"
-            class="img-fluid border shadow p-3 mb-5"
-            alt="main image"
-            srcset=""
-          />
-        </div>
-      </div>
-    </section>
-
-  </div>
+      </section>
+    </div>
   </body>
 </html>
