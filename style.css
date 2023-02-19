@@ -94,6 +94,7 @@ p{
 }
 
 
+
 /* Dark Mode Style */
 
 body.dark{
@@ -164,6 +165,14 @@ body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card 
     background-color: var(--amber-800);
 }
 
+body.dark .projects-text{
+    color: var(--amber-800);
+}
+
+body.dark .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: var(--amber-800)
+}
+
 /* Contact section dark mode */
 body.dark .container .aboutMe .aboutMeDiv{
     background-color: var(--backgroundDivs);
@@ -180,6 +189,10 @@ body.dark .container .aboutMe .aboutMeDiv .textContainer .socialMediaContainer{
 body.dark .portfolio-img{
     opacity: 0.8;
     filter: grayscale();
+}
+
+body.dark .h1-responsive{
+    color: var(--amber-800);
 }
 
 /* Contact buttons dark mode */
