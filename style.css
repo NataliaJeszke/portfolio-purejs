@@ -210,6 +210,35 @@ body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card 
     justify-content: space-between;
 }
 
+.mainContainerAboutMe{
+    display: flex;
+
+}
+
+.text-about-me{
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.job-text{
+    margin-top: 10px;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: center
+}
+
+.contactForm{
+    justify-content: center;
+}
+
+.imgContainerAboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 
 

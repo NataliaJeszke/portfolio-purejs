@@ -57,7 +57,6 @@
                 >Home</a
               >
               <a class="nav-link nav-link2" href="#">Portfolio</a>
-              <a class="nav-link nav-link3" href="#">About</a>
               <a class="nav-link nav-link4" href="#">Contact</a>
             </div>
           </div>
@@ -71,7 +70,7 @@
         </nav>
       </div>
       <div
-        class="mainDiv d-flex flex-column flex-sm-column flex-md-row border shadow-lg p-3 mb-5 rounded"
+        class="mainDiv d-flex flex-column flex-sm-column flex-lg-row border shadow-lg p-3 mb-5 rounded"
       >
         <div
           class="textContainer col d-flex flex-column justify-content-center me-3 ms-3"
@@ -122,7 +121,7 @@
       <div
         class="secondContainer d-flex flex-column flex-md-column border shadow-lg p-3 mb-5 rounded justify-content-center"
       >
-        <h2 class="text-center mb-5">Portfolio</h2>
+        <h2 class="text-center mb-5 mt-3">Portfolio</h2>
         <h3 class="text-center mb-5">
           RWD style with pure CSS, Bootstrap, Flex and Grid, Glass design
         </h3>
@@ -344,7 +343,127 @@
             </div>
           </div>
         </section>
-      </div>
     </div>
+    <section class="aboutMe">
+      <div
+        class="aboutMeDiv d-flex flex-column flex-sm-column flex-lg-row border shadow-lg p-3 mb-5 rounded"
+      >
+        <div
+          class="textContainer col d-flex flex-column justify-content-center me-3 ms-3 mt-4"
+        >
+          <h1 class="text-center mb-5">Hi!</h1>
+
+          <h2 class="h2 text-center text-wrap mt-2 mb-3">
+           My name is Natalia Jeszke
+          </h2>
+
+          <h2 class="h2 text-center text-wrap mt-2 mb-3">
+            Postgraduate student in Frontend Development 2022/2023.
+          </h2>
+          <h3 class="text-center text-wrap mb-3 job-text">Currently working as a Metadata Specialist in Poznan Supercomputing and Networking Center </h3>
+
+          <h3 class="text-center text-wrap mb-5 job-text">I am looking for employment as a Junior Frontend Developer in technologies such as ReactJS, Bootstrap </h3>
+          <div
+          class="socialMediaContainer d-flex flex-row mt-2 mb-2 gap-2 align-items-center justify-content-center"
+        >
+          <a class="btn socialBtn1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="btn socialBtn2"
+            href="https://github.com/NataliaJeszke"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a class="btn socialBtn3" href="#!" role="button"
+            ><i class="fa-brands fa-square-pinterest"></i
+          ></a>
+        </div>
+          <section class="mb-4 mt-2">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact</h2>
+            <div class="row contactForm">
+        
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        
+                        <!--Grid row-->
+                        <div class="row">
+        
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+        
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+        
+                        </div>
+                        <!--Grid row-->
+        
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+        
+                        <!--Grid row-->
+                        <div class="row">
+        
+                            <!--Grid column-->
+                            <div class="col-md-12">
+        
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <!--Grid row-->
+        
+                    </form>
+        
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <!--Grid column-->
+        
+            </div>
+        </section>
+        </div>
+        <div class="imgContainerAboutMe col mt-4">
+          <img
+            src="portfolio-photo.jpg"
+            class="img-fluid border shadow p-3 mb-5"
+            alt="main image"
+            srcset=""
+          />
+        </div>
+      </div>
+    </section>
+
+  </div>
   </body>
 </html>
