@@ -298,6 +298,18 @@ body.dark .contactBtn:hover{
     transform: scale(1.2); 
   }
 
+.linkBack{
+    color: var(--amber-800);
+    text-decoration: none;
+}
+
+.linkBack:hover{
+    color: var(--amber-dark);
+}
+
+.imgSuccess{
+    height: 50vh;
+}
 
 
 
