@@ -13,7 +13,8 @@
 }
 
 html {
-    scroll-padding-top: 70px; /* height of sticky header */
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
   }
 
 body{
