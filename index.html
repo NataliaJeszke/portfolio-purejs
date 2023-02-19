@@ -38,9 +38,7 @@
     <div class="container">
       <div class="header row border shadow-lg p-1 mb-2 rounded d-flex">
         <nav
-          class="navContainer container 
-          d-flex flex-column flex-sm-column flex-lg-row border shadow-lg rounded
-          justify-content-center nav navbar navbar-expand-lg fixed-top text-center"
+          class="navContainer container d-flex flex-column flex-sm-column flex-lg-row border shadow-lg rounded justify-content-center nav navbar navbar-expand-lg fixed-top text-center"
         >
           <button
             class="navbar-toggler"
@@ -55,7 +53,10 @@
           </button>
           <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarToggler">
-              <a class="nav-link active nav-link1" aria-current="page" href="#home"
+              <a
+                class="nav-link active nav-link1"
+                aria-current="page"
+                href="#home"
                 >Home</a
               >
               <a class="nav-link nav-link2" href="#projects">Projects</a>
@@ -72,7 +73,8 @@
         </nav>
       </div>
       <div
-        class="mainDiv d-flex flex-column flex-sm-column flex-lg-row border shadow-lg p-3 mb-5 rounded" id="home"
+        class="mainDiv d-flex flex-column flex-sm-column flex-lg-row border shadow-lg p-3 mb-5 rounded"
+        id="home"
       >
         <div
           class="textContainer col d-flex flex-column justify-content-center me-3 ms-3"
@@ -120,7 +122,8 @@
         </div>
       </div>
       <div
-        class="secondContainer d-flex flex-column flex-md-column border shadow-lg p-3 mb-5 rounded justify-content-center" id="projects"
+        class="secondContainer d-flex flex-column flex-md-column border shadow-lg p-3 mb-5 rounded justify-content-center"
+        id="projects"
       >
         <h2 class="text-center mb-5 mt-3 projects-text">Projects</h2>
         <h3 class="text-center mb-5">
@@ -328,13 +331,13 @@
                   page for names nad surnames of Star Wars characters.
                 </p>
                 <a
-                class="btn socialBtn2"
-                href="https://github.com/NataliaJeszke/SWAPI-JS"
-                target="_blank"
-                rel="noopener noreferrer"
-                role="button"
-                ><i class="fab fa-github"></i
-              ></a>
+                  class="btn socialBtn2"
+                  href="https://github.com/NataliaJeszke/SWAPI-JS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
               </div>
             </div>
 
@@ -342,7 +345,11 @@
               class="card d-flex justify-content-between zoom"
               style="width: 18rem"
             >
-              <img src="xo-game.png" class="card-img-top" alt="Tic Tac Toe image" />
+              <img
+                src="xo-game.png"
+                class="card-img-top"
+                alt="Tic Tac Toe image"
+              />
               <div class="card-body">
                 <h5 class="card-title">Tic Tac Toe Game</h5>
                 <p class="card-text">
@@ -350,13 +357,13 @@
                   80s style.
                 </p>
                 <a
-                class="btn socialBtn2"
-                href="https://github.com/NataliaJeszke/xo"
-                target="_blank"
-                rel="noopener noreferrer"
-                role="button"
-                ><i class="fab fa-github"></i
-              ></a>
+                  class="btn socialBtn2"
+                  href="https://github.com/NataliaJeszke/xo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
               </div>
             </div>
 
@@ -364,7 +371,11 @@
               class="card d-flex justify-content-between zoom"
               style="width: 18rem"
             >
-              <img src="todolist.png" class="card-img-top" alt="To do list image" />
+              <img
+                src="todolist.png"
+                class="card-img-top"
+                alt="To do list image"
+              />
               <div class="card-body">
                 <h5 class="card-title">To Do List</h5>
                 <p class="card-text">
@@ -372,13 +383,13 @@
                   DOM. With usage of LocalStorage.
                 </p>
                 <a
-                class="btn socialBtn2"
-                href="https://github.com/NataliaJeszke/ToDoListJS"
-                target="_blank"
-                rel="noopener noreferrer"
-                role="button"
-                ><i class="fab fa-github"></i
-              ></a>
+                  class="btn socialBtn2"
+                  href="https://github.com/NataliaJeszke/ToDoListJS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -434,7 +445,7 @@
                   <form
                     id="contact-form"
                     name="contact-form"
-                    action="mail.php"
+                    action="https://formsubmit.co/njeszke.front@gmail.com"
                     method="POST"
                   >
                     <!--Grid row-->
@@ -447,6 +458,7 @@
                             id="name"
                             name="name"
                             class="form-control"
+                            required
                           />
                           <label for="name" class="">Your name</label>
                         </div>
@@ -461,6 +473,7 @@
                             id="email"
                             name="email"
                             class="form-control"
+                            required
                           />
                           <label for="email" class="">Your email</label>
                         </div>
@@ -478,6 +491,7 @@
                             id="subject"
                             name="subject"
                             class="form-control"
+                            required
                           />
                           <label for="subject" class="">Subject</label>
                         </div>
@@ -494,23 +508,24 @@
                             type="text"
                             id="message"
                             name="message"
-                            rows="2"
+                            rows="4"
                             class="form-control md-textarea"
+                            required
                           ></textarea>
                           <label for="message">Your message</label>
                         </div>
                       </div>
                     </div>
                     <!--Grid row-->
+                    <div class="text-center text-md-left">
+                      <button
+                        type="submit"
+                        class="btn btn-light contactBtn mx-auto"
+                      >
+                        Submit
+                      </button>
+                    </div>
                   </form>
-
-                  <div class="text-center text-md-left">
-                    <a
-                      class="btn btn-primary contactBtn"
-                      onclick="document.getElementById('contact-form').submit();"
-                      >Send</a
-                    >
-                  </div>
                   <div class="status"></div>
                 </div>
                 <!--Grid column-->
@@ -528,5 +543,6 @@
         </div>
       </section>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
