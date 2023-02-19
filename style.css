@@ -284,6 +284,15 @@ body.dark .contactBtn:hover{
     flex-direction: column;
 }
 
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); 
+  }
+
 
 
 
