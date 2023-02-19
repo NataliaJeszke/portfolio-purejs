@@ -154,16 +154,7 @@ body.dark .container .header .navContainer{
     align-items: center;
 }
 
-.other-pure-js{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
+.img-PureJS{
+    height: 50vh;
 }
 
-.card{
-    width: 18rem;
-    height: auto;
-}
