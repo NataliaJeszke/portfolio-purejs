@@ -217,96 +217,6 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <h3 class="text-center mb-5 mt-5">Pure JS Projects: API project, TicTacToe Game, To Do List</h3>
-        <div
-          id="carouselPureJS"
-          class="carousel carousel-dark slide"
-          data-bs-ride="false"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselPureJS"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselPureJS"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselPureJS"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <video class="img-fluid img-PureJS" autoplay loop muted>
-                <source src="swapi.mp4" type="video/mp4" />
-              </video>
-              <div class="carousel-caption d-none d-md-block">
-                <a
-                  class="btn socialBtn2"
-                  href="https://github.com/NataliaJeszke/SWAPI-JS"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  role="button"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="xo-game.png" class="d-block w-100 img-PureJS" alt="XO Game image" />
-              <div class="carousel-caption d-none d-md-block">
-                <a
-                  class="btn socialBtn2"
-                  href="https://github.com/NataliaJeszke/xo"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  role="button"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="todolist.png" class="d-block w-100 img-PureJS" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <a
-                  class="btn socialBtn2"
-                  href="https://github.com/NataliaJeszke/ToDoListJS"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  role="button"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselPureJS"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselPureJS"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
         <h3 class="text-center mb-5 mt-5">
          Frameworks and Libraries for JavaScript: ReactJS, Redux
         </h3>
@@ -401,6 +311,39 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+        <section class="pureJSProjects">
+          <h3 class="pureJStitle">Pure JavaScript Projects</h3>
+          <div class="pureJSProjectCards d-flex flex-sm-column flex-lg-row">
+            <div class="card d-flex justify-content-between" style="width: 18rem;">
+              <video class="img-fluid img-PureJS" autoplay loop muted>
+                <source src="swapi.mp4" type="video/mp4" />
+              </video>
+              <div class="card-body">
+                <h5 class="card-title">SWAPI</h5>
+                <p class="card-text">Project with Open Source API for everything Star Wars. Search page for names nad surnames of Star Wars characters.</p>
+                <a href="#" class="btn btnCard btn-primary">Go somewhere</a>
+              </div>
+            </div>
+  
+            <div class="card d-flex justify-content-between" style="width: 18rem;">
+              <img src="xo-game.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tic Tac Toe Game</h5>
+                <p class="card-text">Usage of pure JavaScript with LocalStorage manipulation. Fun 80s style.</p>
+                <a href="#" class="btn btnCard btn-primary">Go somewhere</a>
+              </div>
+            </div>
+  
+            <div class="card d-flex justify-content-between" style="width: 18rem;">
+              <img src="todolist.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">To Do List</h5>
+                <p class="card-text">Pure JavaScript with creating and removing elements from the DOM. With usage of LocalStorage.</p>
+                <a href="#" class="btn btnCard btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   </body>

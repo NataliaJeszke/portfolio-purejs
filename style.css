@@ -148,13 +148,68 @@ body.dark .container .header .navContainer{
     background-color: var(--backgroundDivs);
 }
 
+/* Portfolio section dark mode */
+
+body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card .card-body .card-text{
+    color: var(--amber-light);
+}
+
+body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card{
+    background-color: var(--backgroundDivs);
+}
+
+body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card .card-body .btnCard{
+    color: var(--fontColorDark);
+    background-color: var(--bodyBg);
+}
+body.dark .container .secondContainer .pureJSProjects .pureJSProjectCards .card .card-body .btnCard:hover{
+    background-color: var(--amber-800);
+}
+
 .secondContainer{
     justify-content: center;
     text-align: center;
     align-items: center;
 }
 
-.img-PureJS{
-    height: 50vh;
+.pureJSProjects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 255, 0);
 }
+
+.pureJSProjectCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.pureJStitle{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-text{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: #000000;
+    font-size:medium;
+}
+
+.card{
+    height: 25rem;
+}
+.card-body{
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
 
