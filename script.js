@@ -47,6 +47,3 @@ window.onload = function () {
     icon.classList.add("fa-sun");
   }
 };
-
-//Send E-mail
-
